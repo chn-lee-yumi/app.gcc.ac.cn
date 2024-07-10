@@ -1,4 +1,4 @@
-# app.gcc.ac.cn
+# 本地AI绘画 Stable Diffusion
 
 [Terms & Conditions](terms-and-conditions.html)
 
