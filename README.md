@@ -20,5 +20,5 @@
 
 # Local AI Art Private Diffusion Bundle
 
-<a href="https://apps.apple.com/us/app/local-ai-art-private-diffusion/id6529537093?itscg=30200&itsct=apps_box_badge&mttnsubad=6529537093" style="display: inline-block;"><img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1720569600" alt="Download on the App Store" style="width: 246px; height: 82px; vertical-align: middle; object-fit: contain;" /></a>
+<a href="https://apps.apple.com/us/app-bundle/local-ai-art-private-diffusion-bundle/id1818470771?itscg=30200&itsct=apps_box_badge&mttnsubad=1818470771" style="display: inline-block;"><img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us" alt="Download on the App Store" style="width: 246px; height: 82px; vertical-align: middle; object-fit: contain;" /></a>
     
