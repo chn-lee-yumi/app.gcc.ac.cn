@@ -67,12 +67,12 @@
     </ul>
 
     <h2>5. Sharing with third-party AI services and your consent</h2>
-    <p>Before your first generation, the app asks for your permission to send your photos and prompts to third-party AI services. When you give permission, the app sends only the photo(s) you select, your text prompt, and the model settings for your request. It does not send your Apple account identifier, name, or email to these services.</p>
+    <p>Before your first generation, the app asks for your permission to send your photos and prompts to third-party AI services. When you give permission, the app sends only the photo(s) you select, your text prompt, and the model settings for your request. Our server receives your account identifier to associate the request with your account, but does not forward it, your name, or your email to the AI services.</p>
     <ul>
-      <li><strong>Cloudflare, Inc. (Workers AI):</strong> runs the AI models that generate your edited image.</li>
-      <li><strong>Black Forest Labs (FLUX models):</strong> generates images for some edit requests, and may receive the request through Cloudflare.</li>
+      <li><strong>Cloudflare, Inc. (Workers AI):</strong> processes requests routed through Workers AI. For standard inference, Cloudflare processes inputs and outputs only as needed to provide the response, does not retain them after they are no longer needed to process and deliver it, and does not use them to train AI models. Limited exceptions may apply for operational metadata, legal or security requirements, and features configured to store content. See <a href="https://developers.cloudflare.com/workers-ai/platform/data-usage/">Cloudflare Workers AI data usage</a>.</li>
+      <li><strong>Black Forest Labs (FLUX API):</strong> receives photos, prompts, and model settings for requests routed to its API. BFL has confirmed in writing, for our API account, that the same input/output use and retention commitments as Cloudflare Workers AI apply to those requests. See <a href="https://bfl.ai/legal/flux-api-service-terms">BFL API terms</a>.</li>
     </ul>
-    <p>Each provider processes the data under its own terms and privacy policy. We do not sell your personal data. Google Firebase Analytics and Google AdMob (section 2) are provided by Google. Purchases are processed by Apple under Apple’s policies.</p>
+    <p>We do not sell your personal data. Google Firebase Analytics and Google AdMob (section 2) are provided by Google. Purchases are processed by Apple under Apple’s policies.</p>
     <p>You can withdraw this consent at any time on the Points screen by choosing “Withdraw AI photo processing consent”. After you withdraw, your photos are not sent to these services until you give consent again.</p>
 
     <h2>6. Data storage, retention, and security</h2>
